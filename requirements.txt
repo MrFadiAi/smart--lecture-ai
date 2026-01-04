@@ -1,0 +1,7 @@
+streamlit
+openai
+supabase
+stripe
+fpdf
+pydub
+streamlit-authenticator
