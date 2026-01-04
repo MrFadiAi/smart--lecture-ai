@@ -1,5 +1,6 @@
 import streamlit as st
-from pages import landing, dashboard
+import pages.landing as landing
+import pages.dashboard as dashboard
 from utils.auth import require_auth
 if "page" not in st.session_state:
     st.session_state.page = "landing"
